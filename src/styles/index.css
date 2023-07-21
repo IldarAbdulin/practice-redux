@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Gotham Pro';
+}
+
+.container {
+  @apply w-[80%] m-auto;
+}
